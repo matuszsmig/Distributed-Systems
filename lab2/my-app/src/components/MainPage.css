@@ -1,0 +1,29 @@
+.title {
+    text-align: center;
+}
+
+.page-conteiner {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: center;
+    align-content: flex-start;
+    width: 90%;
+    height: 90%;
+}
+
+.player-container {
+    border: 2px solid #000;
+    padding: 10px;
+    cursor: pointer;
+  }
+
+.players {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    align-content: flex-start;
+}
